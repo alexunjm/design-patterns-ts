@@ -1,8 +1,11 @@
-import { sayHello } from './greet';
+import { Dictionary } from './singleton';
 
-function showHello(divName: string, name: string) {
+function replaceInnerText(divName: string, text: string) {
   const elt = document.getElementById(divName);
-  elt.innerText = sayHello(name);
+  elt.innerText += `\n${text}`;
 }
 
-showHello('greeting', 'TypeScript');
+replaceInnerText('greeting', `Dictionary.getInstance().id ${Dictionary.getInstance().id}`);
+replaceInnerText('greeting', `Dictionary.getInstance().id ${Dictionary.getInstance().id}`);
+replaceInnerText('greeting', `Dictionary.getInstance().id ${Dictionary.getInstance().id}`);
+replaceInnerText('greeting', `Dictionary.getInstance().id ${Dictionary.getInstance().id}`);
