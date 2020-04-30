@@ -4,6 +4,7 @@
   "description": "design patterns with typescript",
   "main": "index.js",
   "scripts": {
+    "start": "gulp && npm test",
     "test": "node dist/main.js"
   },
   "repository": {
