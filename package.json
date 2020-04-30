@@ -1,0 +1,34 @@
+{
+  "name": "design-patterns-ts",
+  "version": "1.0.0",
+  "description": "design patters with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexunjm/design-patterns-ts.git"
+  },
+  "keywords": [
+    "patrones",
+    "diseño",
+    "design",
+    "patters",
+    "ts",
+    "typescript",
+    "js",
+    "javascript",
+    "ejemplos",
+    "examples"
+  ],
+  "author": {
+    "name": "Alexander Jaramillo",
+    "email": "contacto@alexanderjaramillo.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexunjm/design-patterns-ts/issues"
+  },
+  "homepage": "https://github.com/alexunjm/design-patterns-ts#readme"
+}
