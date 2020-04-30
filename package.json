@@ -33,8 +33,11 @@
   },
   "homepage": "https://github.com/alexunjm/design-patterns-ts#readme",
   "devDependencies": {
+    "browserify": "^16.5.1",
     "gulp": "^4.0.0",
     "gulp-typescript": "^6.0.0-alpha.1",
-    "typescript": "^3.8.3"
+    "tsify": "^4.0.1",
+    "typescript": "^3.8.3",
+    "vinyl-source-stream": "^2.0.0"
   }
 }
